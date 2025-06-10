@@ -1,0 +1,1 @@
+# japan-earthquake-magnitude-prediction
