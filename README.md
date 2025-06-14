@@ -2,10 +2,12 @@
 
 ## Live Demo
 Want to see the earthquake prediction in action? Check out the deployed Streamlit application here:
+
 Streamlit Application: https://japan-earthquake-magnitude-prediction-k5okggnr6sbxtgcakgdk4q.streamlit.app/
 
 ## Docker Deployment
 For robust and reproducible deployment, the entire application has been containerized using Docker. You can find the image on Docker Hub:
+
 Docker Hub Repository:
 
 
@@ -23,9 +25,13 @@ Insightful Exploratory Data Analysis (EDA): Uncovered critical patterns in Japan
 
 ## Advanced Machine Learning Model Development:
 Initially explored a Random Forest Regressor with hyperparameter tuning via Randomized Search CV.
+
 Developed a sophisticated Artificial Neural Network (ANN) with multiple dense layers, ELU activation, and L2 regularization, demonstrating its superiority for this prediction task.
+
 Rigorous Model Evaluation: Performed detailed performance analysis on both training and test sets, comparing Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), and R2 Score to ensure model generalization.
+
 Seamless Deployment: Successfully deployed the best-performing ANN model as an interactive web application using Streamlit, making the predictions accessible and user-friendly.
+
 Containerization with Docker: Ensured reproducibility and ease of deployment by containerizing the entire application using Docker.
 
 ## Why Japan? The Seismic Context
@@ -33,7 +39,9 @@ Japan's geographical location at the convergence of several major tectonic plate
 
 ## Model Performance:
 
-While the Random Forest achieved a slightly higher R2 score on the training data, the ANN showed better generalization capabilities to the unseen test data, with comparable or slightly better MAE and RMSE values. This indicates its robustness and higher reliability for real-world predictions, making it the chosen model for deployment.
+While the Random Forest achieved a slightly higher R2 score on the training data, the ANN showed better generalization capabilities to the unseen test data, with comparable or slightly better MAE and RMSE values.
+
+This indicates its robustness and higher reliability for real-world predictions, making it the chosen model for deployment.
 
 ## Model Performance Comparison
 
@@ -48,6 +56,7 @@ While the Random Forest achieved a slightly higher R2 score on the training data
 
 
 # How to Run Locally
+
 If you'd like to explore the code or run the application on your local machine, follow these steps:
 
 1. Clone the repository:
@@ -69,11 +78,15 @@ If you'd like to explore the code or run the application on your local machine, 
      streamlit run app.py 
 
 ## Future Enhancements
+
 I'm always looking to improve! Here are some ideas for future development:
 
 Feature Engineering: Incorporate more sophisticated features such as earthquake depth, specific geographical coordinates, and proximity to major fault lines.
+
 Time-Series Forecasting: Explore advanced time-series models (e.g., LSTMs, Transformers) to predict not just magnitude but also the likelihood and timing of future seismic events.
+
 Real-time Data Integration: Connect directly to live USGS earthquake feeds for continuous model updates and real-time predictions.
+
 Interactive Visualization: Enhance the Streamlit app with more interactive graphs and maps for better data exploration and prediction visualization.
 
 
