@@ -8,7 +8,7 @@ Streamlit Application: https://japan-earthquake-magnitude-prediction-k5okggnr6sb
 ## Docker Deployment
 For robust and reproducible deployment, the entire application has been containerized using Docker. You can find the image on Docker Hub:
 
-Docker Hub Repository:
+Docker Hub Repository: https://hub.docker.com/r/seafari/japan-earthquake-magnitude-prediction
 
 
 ## Project Overview
